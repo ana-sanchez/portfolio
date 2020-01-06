@@ -10,17 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af75a57430.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="about" class="about">
         <header class="about__header">
+            <partial src="_menu.html" label="Menu"></partial>
             <h1 class="about__header--title">
                 Quien soy
             </h1>
+            <a href="./about.html#section"><i class="about__header--icon fas fa-chevron-down"></i></a>
         </header>
 
-        <main class="about__main">
+        <main class="about__main" id="section">
             <p class="about__main--name">
                 Ésta soy yo:
             </p>
@@ -45,13 +48,9 @@
                 línea a línea.
             </p>
         </main>
-
-
-
-
-
-
     </div>
+    <script src="../assets/js/main.js"></script>
+
 </body>
 
 </html>

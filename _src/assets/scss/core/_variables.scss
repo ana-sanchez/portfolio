@@ -4,7 +4,7 @@ $desktop: 1200px;
 
 /* FONTS */
 $defaultFontSize: 16;
-$title-font: 'Playfair Display', serif;
+$title-font: 700 4em/1 "Oswald", sans-serif;;
 $basic-font: 'Titillium Web', sans-serif;
 
 /* COLORS */
@@ -12,3 +12,6 @@ $title-color: rgb(46, 46, 46);
 $text-color:  rgb(70, 70, 70);
 $subtitle-color: rgb(141, 141, 141);
 $menu-color: rgb(110, 110, 110);
+$menu-hamburguer: rgba(239, 103, 50, 0.920);;
+$menu-hover: #c9c9c9;
+$home-font: "Neuton";
