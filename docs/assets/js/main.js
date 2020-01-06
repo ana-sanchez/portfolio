@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";console.log(">> Ready :)");var menu=document.querySelector(".hamburger");function toggleMenu(e){this.classList.toggle("is-active"),document.querySelector(".menuppal").classList.toggle("is_active"),e.preventDefault()}menu.addEventListener("click",toggleMenu,!1);

@@ -12,12 +12,11 @@
         rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/af75a57430.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
-        <div id="about" class="about">
-            <header class="about__header">
+        <div id="contact" class="contact">
+            <header class="contact__header">
                 <div class="hamburger">
                     <div class="_layer -top"></div>
                     <div class="_layer -mid"></div>
@@ -39,29 +38,19 @@
                         </li>
                     </ul>
                 </nav>
-                 <h1 class="about__header--title">
-                Quien soy
+                 <h1 class="contact__header--title">
+                Contacta
             </h1>
- <a href="./about.html#section"><i class="about__header--icon fas fa-chevron-down"></i></a>
 
             </header>
-            <main class="about__main" id="section">
-                <p class="about__main--name">Ésta soy yo:</p>
-                <img class="about__main--image1" src="./assets/images/photo.jpg"
-                alt="ana">
-                <p class="about__main--text"> <strong>VALE</strong> esto es de hace tiempo..</p>
-                <p class="about__main--text">ahora me parezco más a esto!</p>
-                <img class="about__main--image2" src="./assets/images/photo-ana2.jpg"
-                alt="ana">
-                <p class="about__main--description">Apasionada del diseño gráfico y web. Decidí dar un paso adelante y adentrarme
-                    en el mundo del <strong>desarrollo front-end</strong>
-cuando me regalaron
-                    una <strong>Raspberry Pi</strong>
-y ¡uala! ya había instalado mi primer sistema
-                    operativo <strong>open source</strong> .
-                    <br>Emprendiendo colectivamente desarrollé una amplia capacidad de empatía
-                    y escucha activa. Ahora <strong>resuelvo problemas</strong>
-línea a línea.</p>
+            <main class="contact__main">
+                <form action="" method="post" class="form">
+                    <label class="form__name">Nombre y apellidos</label>
+                    <input class="form__input" type="text">
+                    <label class="form__email">Email</label>
+                    <input class="form__input" type="text">
+                    <button class="form__button">Enviar</button>
+                </form>
             </main>
         </div>
         <script src="../assets/js/main.js"></script>
