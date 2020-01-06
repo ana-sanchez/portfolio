@@ -1,0 +1,85 @@
+.contact{
+ 
+    text-align: center;
+    height: 100vh;
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+
+    &__header {
+
+          &--title {
+            font-family: $title-font;
+            color: $title-color;
+            font-size: rem(30);
+            margin-top: rem(220) ;
+            // position: absolute;
+        }
+    }
+
+    &__main {
+    background: rgba(255,255,255,1);
+    z-index: 1;
+    border-radius: 0 50px;
+    padding: 40px;
+    -webkit-box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
+    box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
+    transition: all 0.2s ease-in-out;
+    max-width: 900px;
+    width: 200px;
+
+
+    }
+
+    &__main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+    &__name {
+
+        font-family: $title-font;
+        color: $text-color;
+        font-size: rem(12);
+        margin: rem(5)rem(0);
+
+    }
+
+    &__input {
+        border: rem(0.5) solid $text-color;
+        border-radius: rem(3);
+        margin-bottom: rem(5);
+    
+    }
+
+    &__email {
+        font-family: $title-font;
+        color: $text-color;
+        font-size: rem(12);
+        margin: rem(5)rem(0);
+
+    }
+
+    &__button {
+        width: rem(100);
+    }
+
+}
+
+
