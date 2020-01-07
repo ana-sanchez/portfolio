@@ -159,7 +159,6 @@ img {
  */
 
 button,
-input,
 optgroup,
 select,
 textarea {
@@ -177,6 +176,11 @@ textarea {
 button,
 input { /* 1 */
   overflow: visible;
+}
+
+input {
+  font-family: auto;
+
 }
 
 /**

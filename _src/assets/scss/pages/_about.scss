@@ -14,9 +14,11 @@
 
 
         &--title {
-            font-family: $title-font;
-            color: $title-color;
+            font-family: $Oswald;
+            color: $yellow;
             font-size: rem(30);
+            text-transform: uppercase;
+            letter-spacing: rem(1);
 
             :first-letter{
                 text-transform: uppercase;
@@ -26,9 +28,10 @@
         }
 
         &--icon {
-            font-size: rem(45);
-            color: rgb(175, 172, 172);
-            margin: rem(300) rem(10);
+            font-size: rem(30);
+            color: $yellow;
+            margin: rem(600) rem(10);
+            bottom: 0;
 
             &:hover {
                 transform: scale(1.2);
@@ -276,9 +279,9 @@
             }
 
             &--icon {
-                margin: rem(400) rem(10);
-                font-size: rem(45);
-                color: #fff;
+                margin: rem(500) rem(10);
+                font-size: rem(30);
+                color: $yellow;
                 :hover {
                     transform: scale(2);
                     transition: transform ease-in-out 2s;

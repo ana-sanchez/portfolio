@@ -13,9 +13,12 @@
           padding: rem(50) rem(0);
 
           &--title {
-            font-family: $title-font;
-            color: $title-color;
+            font-family: $Oswald;
+            color: $red;
             font-size: rem(30);
+            text-transform: uppercase;
+            margin-top: rem(100);
+            letter-spacing: rem(1);
         }
     }
 

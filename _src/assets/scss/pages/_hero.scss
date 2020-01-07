@@ -60,37 +60,30 @@
             letter-spacing: .3em;
             margin-left: rem(20);
         }
+
+        &--ball {
+           display: flex;
+           flex-direction: row;
+           justify-content: center;
+        }
        
     }
 
-    &__menu {
-      
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
+    
 
-        &--item{
-            margin: rem(20);
-            border-top: 1px solid $menu-color;
-            border-bottom: 1px solid $menu-color;
-            padding: rem(5);
-            color: $menu-color;
-            font-family: $title-font;
-            opacity: 50%;
-            font-size: rem(12);
 
-            &:hover{
-                opacity: 100%;
-                transition: opacity ease-in 0.5s;
-            }
 
-        }
-            
-               
-    }
-
+}
+.ball{
+    height: rem(10);
+    width: rem(10);
+    border: 1px solid rgb(170, 169, 169);
+    border-radius: 50%;
+    background-color: rgb(170, 169, 169);
+    margin-bottom: 50px;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 

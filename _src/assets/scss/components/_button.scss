@@ -1,0 +1,21 @@
+.btn {
+    background-color: $orange;
+    border: 1px solid $orange;
+    border-radius: rem(15);
+    font-family: $Oswald;
+    font-weight: 700;
+    font-size: rem(10);
+    text-transform: uppercase;
+    color: #fff;
+    width: rem(60);
+    height: rem(30);
+    margin-top: rem(5);
+
+    &:hover {
+        font-size: rem(11);
+        transition: font-size ease-in-out 0.7s;
+        cursor: pointer;
+
+
+    }
+}

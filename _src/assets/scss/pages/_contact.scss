@@ -10,30 +10,36 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    padding: rem(0) rem(100);
 
 
     &__header {
 
           &--title {
-            font-family: $title-font;
-            color: $title-color;
+            font-family: $Oswald;
+            color: $orange;
             font-size: rem(30);
-            margin-top: rem(220) ;
+            margin-top: rem(210);
+            margin-bottom: rem(100);
+            text-transform: uppercase;
+            letter-spacing: rem(3);
+            
+
             // position: absolute;
         }
     }
 
     &__main {
-    background: rgba(255,255,255,1);
-    z-index: 1;
-    border-radius: 0 50px;
-    padding: 40px;
-    -webkit-box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
-    -moz-box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
-    box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
-    transition: all 0.2s ease-in-out;
-    max-width: 900px;
-    width: 200px;
+
+        background: rgba(255,255,255,1);
+        z-index: 1;
+        border-radius: 0 50px;
+        padding: 40px;
+        -webkit-box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
+        -moz-box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
+        box-shadow: -1px 10px 36px -9px rgba(0,0,0,0.47);
+        transition: all 0.2s ease-in-out;
+        width: 200px;
 
 
     }
@@ -54,7 +60,7 @@
 
     &__name {
 
-        font-family: $title-font;
+        font-family: $basic-font;
         color: $text-color;
         font-size: rem(12);
         margin: rem(5)rem(0);
@@ -62,9 +68,12 @@
     }
 
     &__input {
-        border: rem(0.5) solid $text-color;
-        border-radius: rem(3);
+        border: rem(0.5) solid #e2dddd;
+        border-radius: rem(10);
         margin-bottom: rem(5);
+        padding: rem(5);
+        font-family: $basic-font;
+        color: #a7a7a7; 
     
     }
 
@@ -78,6 +87,35 @@
 
     &__button {
         width: rem(100);
+    }
+
+}
+
+@include media($tablet) {
+
+    .contact {
+
+        &__main {
+
+            width: 500px;
+
+        }
+
+    }
+
+}
+
+
+@include media($desktop) {
+
+    .contact {
+
+        &__main {
+
+            width: 900px;
+
+        }
+
     }
 
 }
