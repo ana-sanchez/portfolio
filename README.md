@@ -1,11 +1,36 @@
 
 # Portfolio
 
-Hola! Este es mi portfolio. Recoge muestras de proyectos.
+This project is developed with HTML5, Gulp, Sass. The structure of the components is:
 
-## Tecnologías utilizadas
 
-1. HTML5
-2. Sass 
-3. Automatizador de tareas Gulp
+|__src
+    |_____assets
+        |__ icons
+        |__ images
+        |__ js
+        |__ scss
+    ______|__ components
+    ______|__ core
+    ______|__ pages
+    ______|__ main.scss
+    ______|__ normalize.scss
+    |
+    |_____templates
+        |__ partials
+        |__ about.html
+        |__ contact.html
+        |__ index.html
+        |__ projects.html
 
+
+
+# Starting
+
+With the following instructions you can clone the repository on your local computer and develop it.
+
+**npm install**
+
+Next you can run
+
+**gulp**

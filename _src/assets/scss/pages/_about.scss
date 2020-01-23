@@ -10,8 +10,6 @@
     background: url('../images/header.jpg') no-repeat center center fixed;
     background-size: cover;
     
-
-
     &__header {
          
           margin: 0;
@@ -36,9 +34,6 @@
         padding: rem(45);
         background-color: rgba(255, 255, 255, 0.0);
 
-
-            
-        
         &--link {
           filter: drop-shadow(0 1em 1em rgba(#000, .16));
           font-size: 1rem;
@@ -61,12 +56,8 @@
             height: 100%;
             top: 0; left: 0;
             z-index: -1;
-          }
-
-          
+          }      
         }
-
-
 
         &--description {
             font-family: $basic-font;
@@ -88,12 +79,11 @@
             margin-left: -8px;
             pointer-events: none;
             line-height: 1.75; 
-            // text-shadow: 1px 1px 0 #fff, -1px 1px 0 #fff;
+            text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.342), -1px 1px 0 rgba(255, 255, 255, 0.473);
             transition: background ease-out 500ms;
             
         }
     }
-
 }
 
 .about__main--link:hover > .about__main--description {
@@ -101,51 +91,31 @@
   transition-duration: 200ms;
 }
 
-
-
-
-
-
-  
-
 @include media($tablet) {
 
     .about { 
         text-align: left;
 
         &__header {
-
             &--title {
-
                 margin-top: rem(50) ;
                 margin-left: rem(50);
                 font-size: rem(50);
-
             } 
         }
-
         &__main {
-
             max-width: 750px;
             margin: auto;
             padding: rem(0);
 
-
             &--link {
 
-              &::after {
-             
+              &::after {            
                 width: 120px; 
                 margin-left: -30px;
               
               }
-
             }
-
         }
-
     }
-
-             
-
 }
