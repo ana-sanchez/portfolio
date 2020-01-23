@@ -29,7 +29,7 @@ This project is developed with HTML5, Gulp, Sass. The structure of the component
 
 With the following instructions you can clone the repository on your local computer and develop it.
 
-**npm install**
+```npm install```
 
 Next you can run
 
