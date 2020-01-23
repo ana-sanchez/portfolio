@@ -3,26 +3,23 @@
 
 This project is developed with HTML5, Gulp, Sass. The structure of the components is:
 
-
 |__src
-    |_____assets
-        |__ icons
-        |__ images
-        |__ js
-        |__ scss
-    ______|__ components
-    ______|__ core
-    ______|__ pages
-    ______|__ main.scss
-    ______|__ normalize.scss
-    |
-    |_____templates
-        |__ partials
-        |__ about.html
-        |__ contact.html
-        |__ index.html
-        |__ projects.html
-
+    |___assets
+        |__icons
+        |__images
+        |__js
+        |__scss
+           |__components
+           |__core
+           |__pages
+           |__main.scss
+           |__normalize.scss
+    |___templates
+        |__partials
+        |__about.html
+        |__contact.html
+        |__index.html
+        |__projects.html
 
 
 # Starting
@@ -33,10 +30,11 @@ With the following instructions you can clone the repository on your local compu
 
 Next you can run
 
-**gulp**
+
+```gulp```
 
 And then
 
-**gulp docs**
+```gulp docs```
 
  Upload them to the repo and enable the master/docs/ option in GitHub Pages.
