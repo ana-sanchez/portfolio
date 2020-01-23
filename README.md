@@ -4,7 +4,7 @@
 This project is developed with HTML5, Gulp, Sass. The structure of the components is:
 
 
-|__src
+___SRC
     |_____assets
         |__ icons
         |__ images
