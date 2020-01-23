@@ -1,4 +1,4 @@
-.projects{
+.projects {
  
     text-align: center;
     padding: 0;
@@ -21,9 +21,77 @@
             letter-spacing: rem(1);
         }
     }
+
+    &__main {
+        padding: rem(20);
+
+        &--filter {
+            text-align: center;
+            padding: rem(20);
+            margin: rem(10)
+
+        }
+
+        &--portfolio {
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+    
+    }
     
 }
 
-.content__img {
-    width: rem(300);
+
+
+.filter__btn {
+
+    width: auto;
+    height: rem(20);
+    background-color: $red;
+    color: white;
+    border: rem(1) solid $red;
+    border-radius: rem(20);
+    font-family: $basic-font;
+    font-size: rem(12);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: rem(15);
+
+    &:hover {
+        background-color: $red-light;
+        cursor: pointer;
+        transition: background-color ease 0.3s;
+    }
 }
+
+.portfolio {
+
+    padding: rem(10);
+    border: rem(1) solid rgb(187, 186, 186);
+    border-radius: rem(5);
+    margin: rem(10);
+
+    &__images {
+        width: 300px;
+    }
+
+    &__title {
+        font-family: $basic-font;
+    }
+    
+    &__icon {
+        color: $red;
+        margin: rem(0) rem(5);
+
+        &:hover {
+            color: $red-light;
+            cursor: pointer;
+        }
+    }
+}
+
+
+

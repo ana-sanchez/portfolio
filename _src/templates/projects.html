@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af75a57430.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -21,36 +23,55 @@
             </h1>
         </header>
         <main class="projects__main">
-            <div id="myBtnContainer">
-                <button class="btn active" > All</button>
-                <button class="btn"> HTML y CSS3</button>
-                <button class="btn"> JavaScript</button>
-                <button class="btn"> React</button>
+            <div id="filter" class="project__main--filter">
+                <button class="filter__btn" >All</button>
+                <button class="filter__btn"> HTML y CSS3</button>
+                <button class="filter__btn"> JavaScript</button>
+                <button class="filter__btn"> React</button>
             </div>
-            <div>
-                <img src="../assets/images/skylabers.jpg" class="content__img">
-                <h2>Web Responsive</h2>
+            <div class="projects__main--portfolio">
+                <div class="portfolio">
+                    <img src="../assets/images/skylabers.jpg" class="portfolio__images" alt="site web skylabers">
+                    <h2 class="portfolio__title"> Web Responsive</h2>
+                    <a href="https://github.com/ana-sanchez/web-responive-contact-us-skylabers" target="_blanck" >
+                        <i class="fab fa-github-alt portfolio__icon"></i>
+                    </a>
+                    <a href="http://beta.adalab.es/skylabers/" target="_blanck">
+                        <i class="fas fa-link portfolio__icon"></i>
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <img src="../assets/images/awesome-profile-cards.png" class="portfolio__images" alt="site web awesome-profile-cards">
+                    <h2 class="portfolio__title">Awesome Profile Cards</h2>
+                    <a href="https://github.com/ana-sanchez/awesome-profile-cards-javascript" target="_blanck">
+                        <i class="fab fa-github-alt portfolio__icon"></i>
+                    </a>
+                    <a href="http://beta.adalab.es/project-promo-h-module-2-team-2-afternoon/" target="_blanck">
+                        <i class="fas fa-link portfolio__icon"></i>
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <img src="../assets/images/react-awesome.png" class="portfolio__images" alt="site web awesome-profile-cards-react">
+                    <h2 class="portfolio__title">Refactoring Code React</h2>
+                    <a href="https://github.com/ana-sanchez/refactoring-code-react-profile-cards" target="_blanck">
+                        <i class="fab fa-github-alt portfolio__icon"></i>
+                    </a>
+                    <a href="http://beta.adalab.es/project-promo-h-module-3-team-4-afternoon-/#/" target="_blanck">
+                        <i class="fas fa-link portfolio__icon"></i>
+                    </a>
+                </div>
+                <div class="portfolio">
+                    <img src="../assets/images/rick-morty.png" class="portfolio__images">
+                    <h2 class="portfolio__title">Character Finder</h2>
+                    <a href="https://github.com/ana-sanchez/character-finder-rick-morty-react" target="_blanck" >
+                        <i class="fab fa-github-alt portfolio__icon"></i>
+                    </a>
+                    <a href="http://beta.adalab.es/modulo-3-evaluacion-final-ana-sanchez/#/" target="_blanck">
+                        <i class="fas fa-link portfolio__icon"></i>
+                    </a>
+                </div>
             </div>
-            <div>
-                <img src="../assets/images/awesome-profile-cards.png" class="content__img">
-                <h2>Awesome Profile Cards</h2>
-            </div>
-            <div>
-                <img src="../assets/images/react-awesome.png" class="content__img">
-                <h2>Refactoring Code React</h2>
-            </div>
-            <div>
-                <img src="../assets/images/rick-morty.png" class="content__img">
-                <h2>Character Finder</h2>
-            </div>
-
         </main>
-
-
-
-
-
-
     </div>
     <script src="../assets/js/main.js"></script>
 </body>
