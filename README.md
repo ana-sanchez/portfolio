@@ -10,11 +10,11 @@ This project is developed with HTML5, Gulp, Sass. The structure of the component
         |__ images
         |__ js
         |__ scss
-    ______|__ components
-    ______|__ core
-    ______|__ pages
-    ______|__ main.scss
-    ______|__ normalize.scss
+        |__ components
+    |__ core
+         |__ pages
+         |__ main.scss
+         |__ normalize.scss
     |
     |_____templates
         |__ partials
