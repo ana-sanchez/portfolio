@@ -1,7 +1,7 @@
 .wrapper {
     margin: 0;
     height: 100%;
-    background-color: black;
+    background-color: #050508;
     min-height: 100vh;
 
 }
@@ -27,16 +27,16 @@
             color: $title-color;
         }
 
-        &--theme {
-            margin:rem(20);
-            display: flex;
-            flex-direction: row;
-            justify-content: start;
+        // &--theme {
+        //     margin:rem(20);
+        //     display: flex;
+        //     flex-direction: row;
+        //     justify-content: start;
          
-            bottom: 0;
-            position: absolute;
+        //     bottom: 0;
+        //     position: absolute;
             
-        }
+        // }
   
 
         &--span {
@@ -77,9 +77,7 @@
     background-color: transparent;
     color: $subtitle-color;
     border-color: transparent;
-    font-family: $courier;
-    letter-spacing: rem(3);
-    font-size: rem(12);
+
 }
 
 .button-projects {
@@ -104,9 +102,7 @@
     }
 }
 
-.link-projects {
-    color: white;
-}
+
 
 .space {
     font-family: $courier;
