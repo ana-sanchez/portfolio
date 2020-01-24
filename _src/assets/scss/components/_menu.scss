@@ -99,12 +99,10 @@
 		flex-direction: row;
 		justify-content: center;
 
-		&--dark{
+		&--contact {
 			color: white;
-			margin: rem(0) rem(5) rem(0) rem(5) ;
-		
+			margin: rem(0) rem(5) rem(0) rem(5);
 			bottom: 0;
-			// position: ;
 
 		}
 
@@ -118,8 +116,6 @@
 	padding:rem(60) rem(0);
 
   }	 
-
-
 .menuppal ul li { 
 	text-align:center;
 	font-family: $basic-font;
@@ -148,8 +144,36 @@
 
 	.menuppal ul{
 		margin:25;
-		padding:rem(100);
+		padding:rem(150);
+
+		&__description {
+			font-size: rem(23);
+			line-height: rem(28);
+		}
+	
+		&__skills {
+			font-size: rem(23);
+			line-height: rem(28);
+		}
+	
+		&__icons {
+		
+	
+			&--contact{
+				color: white;
+				margin: rem(0) rem(10) rem(0) rem(10);
+				bottom: 0;
+				font-size: rem(28);
+	
+			}
+
 	  }	
+	}
+
+	.content {
+		max-width: 500px;
+		margin: auto;
+	}
 	  .menuppal ul li { 
 		text-align:center;
 		font-family: $basic-font;

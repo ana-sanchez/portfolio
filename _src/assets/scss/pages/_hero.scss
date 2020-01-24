@@ -80,8 +80,28 @@
     font-family: $courier;
     letter-spacing: rem(3);
     font-size: rem(12);
+}
 
+.button-projects {
 
+    display: inline-block;
+    outline: none;
+    padding: 0.5em 1.0em;
+    margin: rem(30) rem(20);
+    border: 1px solid $subtitle-color;
+    border-radius: 4px;
+    color: $subtitle-color;
+    font-family: $courier;
+    font-size: rem(10);
+    background-color: transparent;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: rgb(54, 54, 54);
+        color: $subtitle-color;
+        cursor: pointer;
+        transition: all ease 0.3s;
+    }
 }
 
 .space {
@@ -97,12 +117,19 @@
 
 @include media($tablet){
     .page {
-        &__wrapper {
-            padding: rem(120);
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
 
+        &__wrapper {
+            padding: rem(150) rem(120);
+            text-align: center;
+       
             &--title {
                 font-size: rem(30);
-
+                margin-top: rem(50);
             }
 
             &--job {
@@ -129,5 +156,10 @@
     
             }
         }        
+    }
+
+    .button-projects {
+        font-size: rem(20);
+        margin: rem(20);
     }
 }
