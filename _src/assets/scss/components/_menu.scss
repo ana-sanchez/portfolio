@@ -72,11 +72,50 @@
     transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
     width: 100%;
 	z-index: 1001;
+
+
+	&__description {
+		font-family: $courier;
+		font-size: rem(12);
+		text-align: center;
+		color: rgba(255, 255, 255, 0.897);
+		margin: rem(30);
+		letter-spacing: rem(2);
+		line-height: rem(18);
+	}
+
+	&__skills {
+		font-family: $courier;
+		font-size: rem(12);
+		text-align: center;
+		color: rgba(255, 255, 255, 0.897);
+		margin: rem(30);
+		letter-spacing: rem(2);
+		line-height: rem(18);
+	}
+
+	&__icons {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		&--dark{
+			color: white;
+			margin: rem(0) rem(5) rem(0) rem(5) ;
+		
+			bottom: 0;
+			// position: ;
+
+		}
+
+
+
+	}
 }	
 
 .menuppal ul{
-	margin:25;
-	padding:rem(120);
+	margin:10;
+	padding:rem(60) rem(0);
 
   }	 
 
@@ -98,6 +137,8 @@
   color:$menu-hover;
   transition: color ease-in 0.3s;
 }
+
+
 
 @include media($tablet) {
 	._layer{

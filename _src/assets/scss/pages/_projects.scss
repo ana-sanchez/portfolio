@@ -3,19 +3,19 @@
     text-align: center;
     padding: 0;
     height: 100%;
-    background: url('../images/header-p.jpg') no-repeat center center ;
     background-size: cover;
     margin: 0;
     height: 100%;
     min-height: 100vh;
+    background-color: black;
 
     &__header {
          
           padding: rem(60) rem(0);
 
           &--title {
-            font-family: $Oswald;
-            color: $red;
+            font-family: $basic-font;
+            color: $subtitle-color;
             font-size: rem(30);
             text-transform: uppercase;
             margin-bottom: rem(10);
@@ -28,7 +28,6 @@
         &--filter {
             text-align: center;
             padding: rem(20);
-
         }
 
         &--portfolio {
@@ -50,17 +49,17 @@
     outline: none;
     padding: 0.5em 1.0em;
     margin: rem(12) rem(0);
-    border: 1px solid $red;
+    border: 1px solid $subtitle-color;
     border-radius: 4px;
-    color: $red;
-    font-family: $basic-font;
-    font-size: rem(12);
+    color: $subtitle-color;
+    font-family: $courier;
+    font-size: rem(10);
     background-color: transparent;
     transition: all 0.2s;
 
     &:hover {
-        background-color: $red-light;
-        color: white;
+        background-color: rgb(54, 54, 54);
+        color: $subtitle-color;
         cursor: pointer;
         transition: all ease 0.3s;
     }

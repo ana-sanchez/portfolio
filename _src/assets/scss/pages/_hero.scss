@@ -1,16 +1,14 @@
 .wrapper {
     margin: 0;
-    height: 100vh;
+    height: 100%;
+    background-color: black;
+    min-height: 100vh;
+
 }
 
 .page {
-    background: url('../images/home2.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-
+   
+  
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -27,6 +25,17 @@
             font-family: $title-font;
             font-weight: 400;
             color: $title-color;
+        }
+
+        &--theme {
+            margin:rem(20);
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+         
+            bottom: 0;
+            position: absolute;
+            
         }
   
 
@@ -57,18 +66,33 @@
             margin-top: rem(5);
             color: $subtitle-color;
             text-transform: uppercase;
-            letter-spacing: .3em;
+            letter-spacing: rem(3);
             margin-left: rem(20);
+            
         }
-
-        &--ball {
-           display: flex;
-           flex-direction: row;
-           justify-content: center;
-        }     
     }
 }
 
+.button-theme {
+    background-color: transparent;
+    color: $subtitle-color;
+    border-color: transparent;
+    font-family: $courier;
+    letter-spacing: rem(3);
+    font-size: rem(12);
+
+
+}
+
+.space {
+    font-family: $courier;
+    letter-spacing: rem(3);
+    color: $subtitle-color;
+    font-size: rem(12);
+
+ 
+
+}
 
 
 @include media($tablet){
