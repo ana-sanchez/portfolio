@@ -8,8 +8,9 @@
 
     
     em {
-      margin-left: 10px;
-      font-size: 1rem;
+      margin-left: rem(10);
+      margin-right: rem(10);
+      font-size: rem(12);
       color: $subtitle-color;
       font-family: $courier;
       letter-spacing: rem(2);

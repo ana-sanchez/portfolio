@@ -26,17 +26,6 @@
             font-weight: 400;
             color: $title-color;
         }
-
-        // &--theme {
-        //     margin:rem(20);
-        //     display: flex;
-        //     flex-direction: row;
-        //     justify-content: start;
-         
-        //     bottom: 0;
-        //     position: absolute;
-            
-        // }
   
 
         &--span {
@@ -45,7 +34,6 @@
             padding: .25em 0 .325em;
             display: block;
             margin: rem(30) rem(20);
-            text-shadow: 0 0 80px rgba(255,255,255,.5);
             background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
             -webkit-background-clip: text;
             background-clip: text;
@@ -100,18 +88,6 @@
         cursor: pointer;
         transition: all ease 0.3s;
     }
-}
-
-
-
-.space {
-    font-family: $courier;
-    letter-spacing: rem(3);
-    color: $subtitle-color;
-    font-size: rem(12);
-
- 
-
 }
 
 

@@ -142,39 +142,43 @@
 		margin-bottom:rem(3);
 	}
 
-	.menuppal ul{
-		margin:25;
-		padding:rem(150);
+	.menuppal {
 
+		&__wrapper {
+			max-width: 600px;
+			margin: auto;
+		}
 		&__description {
-			font-size: rem(23);
+			font-size: rem(18);
 			line-height: rem(28);
 		}
-	
 		&__skills {
-			font-size: rem(23);
+			font-size: rem(18);
 			line-height: rem(28);
 		}
-	
+
 		&__icons {
-		
 	
 			&--contact{
 				color: white;
 				margin: rem(0) rem(10) rem(0) rem(10);
 				bottom: 0;
 				font-size: rem(28);
-	
+				
+				&:hover {
+					color: rgba(255, 255, 255, 0.863);
+				}
 			}
-
-	  }	
+	  	}	
 	}
 
-	.content {
-		max-width: 500px;
-		margin: auto;
+	.menuppal ul{
+		margin:25;
+		padding:rem(150);
+
 	}
-	  .menuppal ul li { 
+
+	.menuppal ul li { 
 		text-align:center;
 		font-family: $basic-font;
 		font-size:rem(25);
