@@ -16,7 +16,8 @@ const elementJs = document.getElementById('js-javascript');
 const elementReact = document.getElementById('js-react')
 const elementRicky = document.getElementById('js-ricky')
 const elementSciencie = document.getElementById('js-sciencie')
-const elementCero = document.getElementById('js-cero')
+const elementCero = document.getElementById('js-cero') 
+const elementBudget = document.getElementById('js-control')
 const buttonAll = document.querySelector('#btn-all');
 const buttonWeb = document.getElementById('btn-web');
 const buttonJs = document.querySelector('#btn-js');
@@ -31,6 +32,7 @@ function selectCategoryAll() {
     elementJs.classList.remove('hidden')
     elementSciencie.classList.remove('hidden')
     elementCero.classList.remove('hidden')
+    elementBudget.classList.remove('hidden')
 
 }
 
@@ -42,6 +44,8 @@ function selectCategoryWeb() {
    elementWeb.classList.remove('hidden')
    elementSciencie.classList.remove('hidden')
    elementCero.classList.remove('hidden')
+   elementBudget.classList.add('hidden')
+
 
 
 }
@@ -53,6 +57,8 @@ function selectCategoryJs(){
     elementWeb.classList.add('hidden')
     elementSciencie.classList.add('hidden')
     elementCero.classList.add('hidden')
+    elementBudget.classList.add('hidden')
+
 
   
 }
@@ -64,6 +70,8 @@ function selectCategoryReact() {
     elementWeb.classList.add('hidden')
     elementSciencie.classList.add('hidden')
     elementCero.classList.add('hidden')
+    elementBudget.classList.remove('hidden')
+
 
 
  }
@@ -75,6 +83,8 @@ function selectCategoryReact() {
     elementWeb.classList.add('hidden')
     elementSciencie.classList.remove('hidden')
     elementCero.classList.remove('hidden')
+    elementBudget.classList.add('hidden')
+
 
  }
 
