@@ -1,7 +1,7 @@
 .wrapper {
     margin: 0;
     height: 100%;
-    background-color: #050508;
+    background-color:var(--bg-color);
     min-height: 100vh;
 
 }
@@ -24,7 +24,7 @@
             font-size: rem(25);
             font-family: $title-font;
             font-weight: 400;
-            color: $title-color;
+            color: var(--font-color);
         }
   
 
@@ -52,13 +52,46 @@
         &--job {
             font-size: rem(13);
             margin-top: rem(5);
-            color: $subtitle-color;
+            color: var(--font-color);
             text-transform: uppercase;
             letter-spacing: rem(3);
             margin-left: rem(20);
             
         }
+
+        &--description{
+
+                font-family: $courier;
+                font-size: rem(10);
+                text-align: left;
+                color: var(--font-color);
+                margin: rem(20);
+                letter-spacing: rem(2);
+                line-height: rem(18);
+     
+        }
+
+        &--skills {
+
+                font-family: $courier;
+                font-size: rem(10);
+                text-align: left;
+                color: var(--font-color);
+                margin: rem(20);
+                letter-spacing: rem(2);
+                line-height: rem(18);
+        }
+        &--icons {
+            margin: rem(15)
+        }
     }
+}
+.icons--contact {
+   
+    color: var(--icon-color);
+    margin: rem(0) rem(5) rem(0) rem(5);
+    bottom: 0;
+    font-size:23px;
 }
 
 .button-theme {
@@ -74,9 +107,9 @@
     outline: none;
     padding: 0.5em 1.0em;
     margin: rem(30) rem(20);
-    border: 1px solid $subtitle-color;
+    border: 1px solid var(--font-color);
     border-radius: 4px;
-    color: $subtitle-color;
+    color: var(--font-color);
     font-family: $courier;
     font-size: rem(10);
     background-color: transparent;
