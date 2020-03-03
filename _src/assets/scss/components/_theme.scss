@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: start;
     top: 0;
-    position: absolute;
+    position: fixed;
     margin:rem(20);
 
     
@@ -88,33 +88,7 @@
   }
 
   @include media($tablet) {
-
-    .content {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-
-          
-    }
-
     .theme-switch-wrapper {
-      
         bottom: 0;
-        position: absolute;
-        margin:rem(20);
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    
-        
-        em {
-          margin-left: 10px;
-          color: var(--font-color);
-          font-family: $courier;
-          letter-spacing: rem(2);
-          font-size: rem(12);
-        }
-      }
-      
+        position:relative    }
   }
