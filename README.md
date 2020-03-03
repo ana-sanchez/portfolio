@@ -3,7 +3,7 @@
 
 This project is developed with HTML5, Gulp, Sass and JavasCript
 
-__src
+`__src
   |___assets
       |___icons
       |___images
@@ -17,7 +17,7 @@ __src
   |___templates
       |___partials
       |___index.html
-      |___projects.html
+      |___projects.html`
 
       
 
