@@ -3,21 +3,21 @@
 
 This project is developed with HTML5, Gulp, Sass and JavasCript
 
-`__src
-  |___assets
-      |___icons
-      |___images
-      |___js
-      |___scss
-            |___components
-            |___core
-            |___pages
-            |___main.scss
-            |___normalize.scss
-  |___templates
-      |___partials
-      |___index.html
-      |___projects.html`
+`|_____src
+        |___assets
+            |___icons
+            |___images
+            |___js
+            |___scss
+                    |___components
+                    |___core
+                    |___pages
+                    |___main.scss
+                    |___normalize.scss
+      |___templates
+          |___partials
+          |___index.html
+          |___projects.html`
 
       
 
