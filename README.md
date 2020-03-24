@@ -1,9 +1,32 @@
 
 # Portfolio
 
-This project is developed with HTML5, Gulp, Sass. 
+This project is developed with HTML5, Gulp, Sass and JavaScript.
 
-# Starting
+###### Structure
+
+```
+/
+`- _src
+   |- assets
+   |  |- images
+   |  |- js
+   |  `- scss
+   |     `- core
+   |     `- components
+   |     `- pages
+   |     `- main.scss
+   |     `- normalize.scss
+   |
+   `- templates
+      `- partials
+      `- index.html
+      `- projects.html
+
+```
+
+      
+## Starting 🚀
 
 With the following instructions you can clone the repository on your local computer and develop it.
 
