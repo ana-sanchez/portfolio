@@ -185,3 +185,14 @@
         margin: rem(20);
     }
 }
+@include media($desktop) {
+    .page__wrapper {
+        &--description,
+        &--skills {
+            max-width: 900px;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+    }
+}
+}

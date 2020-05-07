@@ -42,3 +42,7 @@ And then
 ```gulp docs```
 
  Upload them to the repo and enable the master/docs/ option in GitHub Pages.
+
+## FASE 2: diseño y desarrollo  
+
+![Wireframe](/_src/images/wireframe.jpg)
