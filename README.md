@@ -45,4 +45,4 @@ And then
 
 ## FASE 2: diseño y desarrollo  
 
-![Wireframe](/_src/images/wireframe.jpg)
+![Wireframe](./wireframe.jpg)
